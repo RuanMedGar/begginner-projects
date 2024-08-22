@@ -1,0 +1,22 @@
+div{
+    display: block;
+    height: 100px;
+}
+.vermelho{
+    background: red;
+}
+.laranja{
+    background: orange;
+}
+.amarelo{
+    background: yellow;
+}
+.verde{
+    background: green;
+}
+.azul{
+    background: blue;
+}
+.roxo{
+    background: purple;
+}
