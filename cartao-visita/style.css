@@ -1,19 +1,32 @@
-.photo{
-    width: 150px;
-    border-radius: 15px;
+.body{
+    margin: 20px;
 }
+
+.bborder{
+    border: 1px dotted black;
+}
+
+#photo{
+    width: 150px;
+    border-radius: 10px;
+}
+
 .card{
-    width: 500px;
-    background: rgb(255, 200, 250);
     padding: 20px;
     display: flex;
-    border-bottom: 10px solid rgb(150, 0, 165);
-    justify-content: space-around;
+    justify-content:space-around;
+    width: 500px;
+    margin: 10px auto;
+    background: rgb(140, 250, 190);
+    border-bottom: 5px solid rgb(0, 150, 10);
 }
+
 .info{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+ */   
 }

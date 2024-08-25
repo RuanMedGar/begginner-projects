@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: norsa;
+    src: url(FashionNorsa-Regular.ttf);
+}
+
+.norsa {
+    font-family: "norsa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    color: #08081d;
+}
+
+h1{
+    text-shadow: 0px 0px 3px #DDA7F7;
+}
+
+.hero{
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3JsZnJzaXNieW82NGNvYm5qbTJ4OTIwaDI2OHIyM2xwYXcwcTBqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rm3cJx7OmvFWld8bM0/giphy.webp);
+    background-size: cover;
+    padding: 10px 0 300px 0;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #DDA7F7;
+    border: none;
+    border-radius: 2px;
+    text-shadow: 0px 0px 2px white;
+}
+
+.underline{
+    border-bottom: 5px solid white;
+}
+
+.upperline{
+    border-top: 5px solid white;
+}
+
+#logo{
+    width: 100px;
+}

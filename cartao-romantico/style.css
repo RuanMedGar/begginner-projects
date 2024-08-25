@@ -1,0 +1,30 @@
+#foto-erivelton{
+    object-fit: cover;
+    object-position: 30% 30%;
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    border: 5px solid pink;
+}
+body{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    background-color: cornflowerblue;
+    font-weight: 100;
+    font-size: larger;
+    font-style: light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Love Light";
+}
+
+h2, h3{
+    background-color: pink;
+}
+
