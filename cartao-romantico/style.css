@@ -8,23 +8,72 @@
 }
 body{
     text-align: center;
-    color: white;
-    text-shadow: 0px 0px 5px black;
+    color: rgb(255, 244, 244);
     background-color: cornflowerblue;
     font-weight: 100;
     font-size: larger;
     font-style: light;
+}
+
+header{
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 5px black;
+}
+
+#titulo{
+    background-color: pink;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#preferencia{
+    margin: 0;
+    background-color: pink;
+    padding: 3px 10px;
+    border-radius: 5px;
 }
 
 h1{
     font-family: "Love Light";
 }
 
-h2, h3{
-    background-color: pink;
+.presente-div{
+    margin-top: 50px;
 }
 
+.presente-titulo{
+    margin-bottom: 5px;
+}
+
+.presente-dica{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.presente-svg{
+    background-image: url(gift-svgrepo-com.svg);
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.presente1:hover{
+    background-image: url(https://www.qualysessa.com.br/painel/dbanexos/dbimagens/06-2016/b5d849a94c4a6b5bb4b0da35b29082ca.jpg);
+    background-size: cover;
+}
+
+.presente2:hover{
+    background-image: url(https://www.telemercado.com.br/wp-content/uploads/2018/09/BOLACHA_JUCURUTU.jpg);
+    background-size: cover;
+}
