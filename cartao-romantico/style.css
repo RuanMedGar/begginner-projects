@@ -9,7 +9,7 @@
 body{
     text-align: center;
     color: rgb(255, 244, 244);
-    background-color: cornflowerblue;
+    background: linear-gradient(cornflowerblue, lightskyblue);
     font-weight: 100;
     font-size: larger;
     font-style: light;
@@ -68,12 +68,24 @@ h1{
     margin: 5px auto;
 }
 
-.presente1:hover{
+#presente1:hover{
     background-image: url(https://www.qualysessa.com.br/painel/dbanexos/dbimagens/06-2016/b5d849a94c4a6b5bb4b0da35b29082ca.jpg);
     background-size: cover;
 }
 
-.presente2:hover{
+#presente2:hover{
     background-image: url(https://www.telemercado.com.br/wp-content/uploads/2018/09/BOLACHA_JUCURUTU.jpg);
     background-size: cover;
 }
+
+#presente3:hover{
+    background-image: url(https://static.itdg.com.br/images/640-400/b10b7d3a5b1f31b9e2b189fae972f05a/shutterstock-1989493415-1-.jpg);
+    background-size: cover;
+}
+
+#presente4:hover{
+    background-image: url(https://app.cardapiodigital.net/dnizcafeebistro/5742-large_default/manteiga.jpg);
+    background-size: cover;
+}
+
+
